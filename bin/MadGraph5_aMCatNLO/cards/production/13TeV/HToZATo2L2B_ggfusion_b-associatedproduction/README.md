@@ -33,6 +33,9 @@ Other optional arguments are:
   $DEFAULT_PDF_MEMBERS  = reweight_PDF
   ```
 
+## Generating the gridpacks
+
 Inside the cards output directory (``example_cards`` or ``PrivateProd_run2``)
-a script will be written to produce all the gridpacks (from a clean environment,
-using the helpers from the genproductions repository).
+a simple shell script is generated to produce all the gridpacks.
+It should be run from the ``genproductions/bin/MadGraph5_aMCatNLO`` directory,
+in a clean environment.
